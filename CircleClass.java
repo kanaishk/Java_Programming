@@ -7,6 +7,15 @@ class Circle
 	int centy;
 	float r;
 
+	// Constructor
+	Circle()
+	{
+		centx=0;
+		centy=0;
+		r=0.0f;
+	}
+
+
 	// Methods
 	public void setval()
 	{
@@ -30,6 +39,7 @@ public class CircleClass
 	public static void main(String[] args)
 	{
 		Circle c=new Circle();
+		c.display();
 		c.setval();
 		c.display();
 	}
