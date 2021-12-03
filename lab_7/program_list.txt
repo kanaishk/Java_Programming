@@ -1,0 +1,7 @@
+1) try catch 
+2) multiple try catch
+3) try catch final
+4) throw 
+5) throws
+6) user defined exception
+7) nested try catch
